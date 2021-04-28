@@ -37,6 +37,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-João Ferreira 30002525
-Jorge Rocha 30003731
-Ricardo Morais 30002245
+- João Ferreira 30002525
+- Jorge Rocha 30003731
+- Ricardo Morais 30002245
