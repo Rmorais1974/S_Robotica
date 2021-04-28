@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Sistemas de Robótica
 
-You can use the [editor on GitHub](https://github.com/Rmorais1974/S_Robotica/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+No ambito da cadeira de Sistemas de Robótica foi pedido para executarsmo uma simulação de um robot com 8 graus de liberdade com base nos modelos da toolbox do Peter Corke.
 
 ### Markdown
 
