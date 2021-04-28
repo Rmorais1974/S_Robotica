@@ -1,8 +1,8 @@
-## Sistemas de Robótica
+# Sistemas de Robótica
 
 No ambito da cadeira de Sistemas de Robótica foi pedido para executarsmo uma simulação de um robot com 8 graus de liberdade com base nos modelos da toolbox do Peter Corke.
 
-### Markdown
+## Modelo 1
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
@@ -24,12 +24,19 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
+### Demonstração Modelo 1
+
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Modelo 2 
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Rmorais1974/S_Robotica/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+### Demonstração Modelo 2
+
+
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+João Ferreira 30002525
+Jorge Rocha 30003731
+Ricardo Morais 30002245
