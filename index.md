@@ -7,7 +7,7 @@ Cada grupo deveria escolher dois modelos para analizar.
 
 ## Descrição do Trabalho
 
- O trabalho consite em criar uma interface gráfica para visulaizar os movimentos dos robôs. Também devem ser criados videos demonstrativos com a explicação e deonstração do funcionamento.
+ O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos robôs. Também devem ser criados videos demonstrativos com a explicação e demonstração do seu funcionamento.
 
 ## Modelo 1
 
