@@ -76,6 +76,9 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
+[Link] https://www.youtube.com/watch?v=5mvfeWn8DK4
+
 ```
 
 
