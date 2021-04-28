@@ -16,7 +16,7 @@ peetrw gyuiiooip tuith4
 
 
 
-# Código
+## Código
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
@@ -53,10 +53,8 @@ peetrw gyuiiooip tuith4
 
 
 
-# Código
 
-
-# Código
+## Código
 
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
