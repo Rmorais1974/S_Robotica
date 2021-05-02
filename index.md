@@ -41,7 +41,7 @@ Syntax highlighted code block
 ```
 
 ### Demonstração Modelo 1
-<iframe src="https://www.youtube.com/embed/{{watch?v=IAi7gukJnc4}}" 
+<iframe src="https://www.youtube.com/embed/watch?v=IAi7gukJnc4" 
     width="560" 
     height="315"
     frameborder="0" 
