@@ -42,7 +42,7 @@ Syntax highlighted code block
 
 ### Demonstração Modelo 1
 
-<iframe src="https://www.youtube.com/embed/{{ include.id }}" 
+<iframe src="https://www.youtube.com/watch?v=IAi7gukJnc4{{ include.id }}" 
     width="560" 
     height="315"
     frameborder="0" 
