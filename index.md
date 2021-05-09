@@ -9,7 +9,7 @@ Cada grupo deveria escolher dois modelos para analizar.
 
  O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos robôs. Também devem ser criados videos demonstrativos com a explicação e demonstração do seu funcionamento.
 
-## Modelo 1
+## MDL_Planar2
 
 peetrw gyuiiooip tuith4
 
@@ -46,7 +46,7 @@ Syntax highlighted code block
 
 
 
-### Modelo 2 
+### Fanuc AM120IB/10l 
 
 peetrw gyuiiooip tuith4
 
