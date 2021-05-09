@@ -67,7 +67,7 @@ Syntax highlighted code block
 ```
 
 ### Demonstração Modelo 1
-<iframe width="720" height="560" src="https://www.youtube.com/embed/KCHck5LIhCc" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="560" src="https://www.youtube.com/embed/gzrBs869XBs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 
@@ -106,7 +106,7 @@ Syntax highlighted code block
 
 ### Demonstração Modelo 2
 
-<iframe width="720" height="560" src="https://www.youtube.com/embed/KCHck5LIhCc" frameborder="2" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="720" height="560" src="https://www.youtube.com/embed/gzrBs869XBs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ### Support or Contact
