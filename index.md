@@ -44,25 +44,19 @@ peetrw gyuiiooip tuith4
 
 ### Código
 
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Modelo MDL2 Planar da toolbox do Peter Corke
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+a1 = 1;
+a2 = 1;
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+p2 = SerialLink([
+    Revolute('d', 0, 'a', a1, 'alpha', 0, 'standard')
+    Revolute('d', 0, 'a', a2, 'alpha', 0, 'standard')
+    ], ...
+    'name', 'planar 2 link');
+qz = [0 0];
 
 ```
 
@@ -82,24 +76,24 @@ peetrw gyuiiooip tuith4
 ### Código
 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Markdown 
 
 ```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+%            theta    d      a    alpha
+clear L
+L(1) = Link([0        0     0.15  -pi/2   0  ]);
+L(2) = Link([0        0     0.77   pi     0  ]);
+L(3) = Link([0        0     0.1   -pi/2   0  ]);
+L(4) = Link([0       -0.96  0      pi/2   0  ]);
+L(5) = Link([0        0     0     -pi/2   0  ]);
+L(6) = Link([0       -0.1   0      0      0  ]);
+%##########################################################
+%Pose 0; At MASTERING position;
+%##########################################################
+q0 =[0   -pi/2   0   0   0   0];
+R=SerialLink(L, 'name', 'Fanuc AM120iB/10L');
+%##########################################################
 
 ```
 
