@@ -47,16 +47,31 @@ peetrw gyuiiooip tuith4
 Modelo MDL2 Planar da toolbox do Peter Corke
 
 ```markdown
-
 a1 = 1;
-a2 = 1;
+a2 = 0.7;
 
-p2 = SerialLink([
+Rob = SerialLink([
     Revolute('d', 0, 'a', a1, 'alpha', 0, 'standard')
     Revolute('d', 0, 'a', a2, 'alpha', 0, 'standard')
     ], ...
     'name', 'planar 2 link');
+
 qz = [0 0];
+t=0:0.05:2;
+q1_pick=[pi/2 -pi/2];
+q2_pick=[-pi/6 pi/4];
+s1_pick = jtraj(q1_pick, q2_pick,t);
+plot (Rob, s1_pick)
+
+
+q3_pick = [0, -pi/2]
+s2_pick = jtraj(q2_pick, q3_pick,t);
+plot(Rob, s2_pick)
+
+
+s3_return = jtraj(q3_pick, q1_pick,t)
+plot(Rob, s3_return)
+Rob.teach
 
 ```
 
