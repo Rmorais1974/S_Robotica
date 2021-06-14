@@ -76,9 +76,15 @@ Rob.teach
 ```
 
 ### Demonstração Modelo 1
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/FQPdxeEAFdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/FQPdxeEAFdg"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe>
+</div>
 
 
 ## FANUC AM120IB/10l 
@@ -132,8 +138,16 @@ plot (Rob,Q);
 
 
 ### Demonstração Modelo 2
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/FQPdxeEAFdg"
+      width="700"
+      height="480"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe>
+</div>
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/FQPdxeEAFdg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 
 ### Support or Contact
