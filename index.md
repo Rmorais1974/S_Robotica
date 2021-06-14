@@ -76,15 +76,8 @@ Rob.teach
 ```
 
 ### Demonstração Modelo 1
-<div class="embed-container">
-  <iframe
-      src="https://www.youtube.com/embed/FQPdxeEAFdg"
-      width="700"
-      height="480"
-      frameborder="0"
-      allowfullscreen="">
-  </iframe>
-</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FQPdxeEAFdg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 ## FANUC AM120IB/10l 
