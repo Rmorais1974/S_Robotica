@@ -135,7 +135,6 @@ matriz, se existe, em um dado pose
 ### Código
 
 
-Markdown 
 
 ```markdown
 clear all
