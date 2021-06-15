@@ -37,7 +37,15 @@ Vamos começar por apresentar o robot MDL_Planar 2 fazendo uma analise profunda 
 
 ## MDL_Planar2
 
-peetrw gyuiiooip tuith4
+MDL_PLANAR2 é um script que cria a variável p2 no espaço de trabalho que descreve as características cinéticas de um simples mecanismo de ligação.
+Este rebot é um robot com 2 graus de liberdade, que se move tanto no eixo do XX como no eixo dos YY
+Também define o vetor:
+
+qz corresponde à configuração do ângulo de articulação zero.
+Também define o vetor:
+
+qz corresponde à configuração do ângulo de articulação zero.
+
 
 
 
@@ -84,7 +92,42 @@ Rob.teach
 
 ## FANUC AM120IB/10l 
 
-peetrw gyuiiooip tuith4
+Fanuc AM120iB/10L, an industrial 6-DOF serial-link manipulator created in [2] using standard Denvait-Hartenberg parameters
+O algoritmo de encontrar espaço de trabalho manipulador, o conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis, é um assunto bem estudado, utilizando várias técnicas em cinemática corporal rígida e dinâmica. De acordo com o
+literatura [4]-[18]. , A noção de espaço de trabalho pode ser mais longe
+desenvolvidas nas seguintes subdivisões:
+• Espaço de trabalho acessível: O conjunto de pontos efeitor final poderia alcançar com pelo menos uma orientação
+• Espaço de trabalho de orientação total: O conjunto de pontos terminantes pode alcançar com todos os ângulos de orientação num dado dado
+gama
+• Espaço de trabalho dexterous: O conjunto de pontos efeitor final
+poderia alcançar com todos os ângulos de orientação
+• Espaço de trabalho de orientação: O conjunto de orientações que resultam
+em uma localização de efeito de terminante fixo
+• Espaço de trabalho de orientação constante: O conjunto de pontos termina
+efetor poderia alcançar com uma orientação específica
+
+Assim, uma ideia central das abordagens atuais é a
+controlo de variáveis: desde a exibição de R
+3 × SO(3) não é
+possível, os constrangimentos são adicionados à parte SO(3) de modo que o
+gráfico de R
+3
+pode ser desenhado [19]. No entanto, tal como salientado por [1],
+uma questão predominante dos algoritmos atuais é que eles exigem
+plataformas de software específicas e têm complexidades de mau tempo.
+Uma análise feita no mesmo trabalho comentou que um MATLAB
+implementação produz um O patológico(n
+36) complexidade com
+cinemática inversa numérica. Assim, uma solução natural vem
+do campo do reconhecimento de padrões e da aprendizagem automática,
+onde o problema do espaço de trabalho manipulador poderia ser reformulado para um problema de aprendizagem supervisionado, e assim ser aprendido
+por uma rede neural profunda. Neste trabalho, propomos tal
+quadro, visto como uma melhoria da Aprendizagem Subespacial
+algoritmo em [1], onde o espaço de trabalho completo de uma ligação em série
+manipulador pode ser gerado a partir da aproximação do seu Jacobiano
+matriz, se existe, em um dado pose
+
+
 
 
 
