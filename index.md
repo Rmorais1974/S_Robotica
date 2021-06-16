@@ -106,7 +106,7 @@ O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis,
 XXXX
 
 ### Ikine
-O metodo ikine permite é um exemplo da análise cinética de um sistema restrito de corpos rígidos, ou cadeia cinética. As equações cinéticas de um robô podem ser usadas para definir as equações de loop de um sistema articulado complexo. 
+XXXX
 
 
 ### Código
