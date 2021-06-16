@@ -19,10 +19,7 @@ Os recursos exclusivos das tecnologias interconectadas permitem que os fabricant
 É algo que possibilita o desenvolvimento de pedidos personalizados com menos trabalho e tempo de configuração do que na fabricação tradicional.
 
 ## Impactos negativos
-Em um artigo científico escrito por acadêmicos da PUC de Curitiba, intitulado de “The impact of the fourth industrial revolution: a cross-country/region comparison”, os possíveis impactos negativos da indústria 4.0 são colocados à prova.
-Dentre os os objetivos da quarta revolução industrial, um chamou a atenção dos acadêmicos de forma negativa e que, segundo eles, está em falta nas políticas públicas relacionadas ao tema:
-O desenvolvimento de um sistema ou filosofia de gestão de produção que realmente ajude as empresas a lidar com o nível de demanda do futuro.
-De acordo com os estudos, há uma necessidade latente de unir uma nova e transformada visão gerencial aos temas considerados pilares da indústria 4.0.
+XXXXX
 
 # Trabalho Pedido
 No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada com base nos modelos da toolbox do Peter Corke.
