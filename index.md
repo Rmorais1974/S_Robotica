@@ -33,7 +33,7 @@ O grupo escolheu dois modelos o modelo mdl_planar2 e o Fanuc AM120IB/10l.
  O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos robôs. Também devem ser criados videos demonstrativos com a explicação e demonstração do seu funcionamento.
  
 # Desenvolvimento
-Vamos começar por apresentar o robot MDL_Planar 2 fazendo uma analise profunda dos seus movimentos, de seguida faremos o mesmo para o robot Fanuc AM120IB/10L
+Vamos começar por apresentar o robot MDL_Planar 2 fazendo uma analise  dos seus movimentos, de seguida faremos o mesmo para o robot Fanuc AM120IB/10L
 
 ## MDL_Planar2
 
@@ -45,6 +45,8 @@ qz corresponde à configuração do ângulo de articulação zero.
 Também define o vetor:
 
 qz corresponde à configuração do ângulo de articulação zero.
+Revolute 
+SerialLink
 
 
 
@@ -92,43 +94,21 @@ Rob.teach
 
 ## FANUC AM120IB/10l 
 
-Fanuc AM120iB/10L, an industrial 6-DOF serial-link manipulator created in [2] using standard Denvait-Hartenberg parameters
-O algoritmo de encontrar espaço de trabalho manipulador, o conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis, é um assunto bem estudado, utilizando várias técnicas em cinemática corporal rígida e dinâmica. De acordo com o
-literatura [4]-[18]. , A noção de espaço de trabalho pode ser mais longe
-desenvolvidas nas seguintes subdivisões:
-• Espaço de trabalho acessível: O conjunto de pontos efeitor final poderia alcançar com pelo menos uma orientação
-• Espaço de trabalho de orientação total: O conjunto de pontos terminantes pode alcançar com todos os ângulos de orientação num dado dado
-gama
-• Espaço de trabalho dexterous: O conjunto de pontos efeitor final
-poderia alcançar com todos os ângulos de orientação
-• Espaço de trabalho de orientação: O conjunto de orientações que resultam
-em uma localização de efeito de terminante fixo
-• Espaço de trabalho de orientação constante: O conjunto de pontos termina
-efetor poderia alcançar com uma orientação específica
-
-Assim, uma ideia central das abordagens atuais é a
-controlo de variáveis: desde a exibição de R
-3 × SO(3) não é
-possível, os constrangimentos são adicionados à parte SO(3) de modo que o
-gráfico de R
-3
-pode ser desenhado [19]. No entanto, tal como salientado por [1],
-uma questão predominante dos algoritmos atuais é que eles exigem
-plataformas de software específicas e têm complexidades de mau tempo.
-Uma análise feita no mesmo trabalho comentou que um MATLAB
-implementação produz um O patológico(n
-36) complexidade com
-cinemática inversa numérica. Assim, uma solução natural vem
-do campo do reconhecimento de padrões e da aprendizagem automática,
-onde o problema do espaço de trabalho manipulador poderia ser reformulado para um problema de aprendizagem supervisionado, e assim ser aprendido
-por uma rede neural profunda. Neste trabalho, propomos tal
-quadro, visto como uma melhoria da Aprendizagem Subespacial
-algoritmo em [1], onde o espaço de trabalho completo de uma ligação em série
-manipulador pode ser gerado a partir da aproximação do seu Jacobiano
-matriz, se existe, em um dado pose
+O Modelo Fanuc AM120iB/10L é um robot com 6 graus de liberdade que usa os parametros Denvait-Hartenberg 
+O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis, utilizando várias técnicas de cinemática corporal rígida e dinâmica. 
 
 
 
+![image](https://user-images.githubusercontent.com/79664875/122179151-257c3e80-ce7f-11eb-8461-72a467d6720f.png)
+
+
+### Fkine
+
+### Ikine
+O metodo ikine permite é um exemplo da análise cinética de um sistema restrito de corpos rígidos, ou cadeia cinética. As equações cinéticas de um robô podem ser usadas para definir as equações de loop de um sistema articulado complexo. Estas equações em loop são restrições não lineares nos parâmetros de configuração do sistema. Os parâmetros independentes nestas equações são conhecidos como os graus de liberdade do sistema.
+A cinemática inversa é o uso de equações cinéticas para determinar o movimento de um robô para alcançar uma posição desejada. Por exemplo, para realizar a recolha automática de contentores, um braço robótico utilizado numa linha de fabrico necessita de um movimento preciso de uma posição inicial para uma posição desejada entre caixotes e máquinas de fabrico. A extremidade de um braço robô é designada como o efeito final. A configuração do robô é uma lista de posições conjuntas que estão dentro dos limites de posição do modelo robô e não violam quaisquer constrangimentos que o robô tenha.
+
+Dadas as posições finais do efeito de efeito do robô desejado, a cinemática inversa (IK) pode determinar uma configuração articular adequada para a qual os efeitos finais se movem para a pose do alvo.
 
 
 
