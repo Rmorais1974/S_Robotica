@@ -44,9 +44,10 @@ Também define o vetor:
 qz corresponde à configuração do ângulo de articulação zero.
 Também define o vetor:
 
-qz corresponde à configuração do ângulo de articulação zero.
-Revolute 
-SerialLink
+
+
+### Revolute - XXXX
+### SerialLink - XXXX
 
 
 
@@ -105,11 +106,7 @@ O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis,
 ### Fkine
 
 ### Ikine
-O metodo ikine permite é um exemplo da análise cinética de um sistema restrito de corpos rígidos, ou cadeia cinética. As equações cinéticas de um robô podem ser usadas para definir as equações de loop de um sistema articulado complexo. Estas equações em loop são restrições não lineares nos parâmetros de configuração do sistema. Os parâmetros independentes nestas equações são conhecidos como os graus de liberdade do sistema.
-A cinemática inversa é o uso de equações cinéticas para determinar o movimento de um robô para alcançar uma posição desejada. Por exemplo, para realizar a recolha automática de contentores, um braço robótico utilizado numa linha de fabrico necessita de um movimento preciso de uma posição inicial para uma posição desejada entre caixotes e máquinas de fabrico. A extremidade de um braço robô é designada como o efeito final. A configuração do robô é uma lista de posições conjuntas que estão dentro dos limites de posição do modelo robô e não violam quaisquer constrangimentos que o robô tenha.
-
-Dadas as posições finais do efeito de efeito do robô desejado, a cinemática inversa (IK) pode determinar uma configuração articular adequada para a qual os efeitos finais se movem para a pose do alvo.
-
+O metodo ikine permite é um exemplo da análise cinética de um sistema restrito de corpos rígidos, ou cadeia cinética. As equações cinéticas de um robô podem ser usadas para definir as equações de loop de um sistema articulado complexo. 
 
 
 ### Código
