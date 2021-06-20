@@ -99,8 +99,8 @@ disp(P)
 <div class="embed-container">
   <iframe
       src="https://www.youtube.com/embed/spq3ohZLllw"
-      width="1920"
-      height="1080"
+      width="960"
+      height="540"
       frameborder="0"
       allowfullscreen="">
   </iframe>
