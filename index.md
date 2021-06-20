@@ -100,6 +100,9 @@ disp(P)
   <iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=spq3ohZLllw"></iframe>
 </div>
 
+<iframe src="https://www.youtube.com/embed/spq3ohZLllw">
+</iframe>
+
 
 ## FANUC AM120IB/10l 
 
