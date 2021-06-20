@@ -135,6 +135,9 @@ Tf =Rob.fkine(qf);
 q0 =[-pi/2 0 pi/4 pi/4 pi -pi/2];
 q =Rob.ikine(Tf, q0, 'mask',[1 1 1 1 1 1]);
 
+t = 0:0.15:8;
+Q= jtraj(q0, qf, t);
+Tr = fkine(Rob,Q);
 
 for i = 1:1:length(t)
     T = Tr(i);
