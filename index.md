@@ -96,10 +96,6 @@ disp(P)
 
 ### Demonstração Modelo 1
 
-<div class="container">
-  <iframe class="responsive-iframe" src="https://www.youtube.com/watch?v=spq3ohZLllw"></iframe>
-</div>
-
 <iframe src="https://www.youtube.com/embed/spq3ohZLllw">
 </iframe>
 
