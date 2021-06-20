@@ -108,7 +108,7 @@ O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis,
 
 
 
-![image](https://user-images.githubusercontent.com/79664875/122179151-257c3e80-ce7f-11eb-8461-72a467d6720f.png)
+<img src="https://user-images.githubusercontent.com/79664875/122179151-257c3e80-ce7f-11eb-8461-72a467d6720f.png" width="100" height="100">
 
 
 ### Fkine
