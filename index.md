@@ -96,8 +96,15 @@ disp(P)
 
 ### Demonstração Modelo 1
 
-<iframe src="https://www.youtube.com/embed/spq3ohZLllw">
-</iframe>
+<div class="embed-container">
+  <iframe
+      src="https://www.youtube.com/embed/spq3ohZLllw"
+      width="1920"
+      height="1080"
+      frameborder="0"
+      allowfullscreen="">
+  </iframe>
+</div>
 
 
 ## FANUC AM120IB/10l 
@@ -169,8 +176,8 @@ plot (Rob,Q);
 <div class="embed-container">
   <iframe
       src="https://www.youtube.com/embed/v=spq3ohZLllw"
-      width="700"
-      height="480"
+      width="1920"
+      height="1080"
       frameborder="0"
       allowfullscreen="">
   </iframe>
