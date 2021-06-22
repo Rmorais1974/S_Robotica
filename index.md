@@ -44,8 +44,9 @@ A articulação limita o movimento de dois corpos a uma rotação pura ao longo 
 As juntas Revolute são utilizadas em numerosas aplicações, tais como dobradiças de porta, mecanismos e outros dispositivos de rotação de um unico eixo.
 No acso deste trabalho utilizamos duas juntas revulte que correspondem aos dois graus de liberdade
 
-<img src="https://user-images.githubusercontent.com/79664875/122982302-9bf2d200-d392-11eb-9d25-789c352a1423.png" width="338" height="266">
 
+
+<img src="https://user-images.githubusercontent.com/79664875/122984780-4d930280-d395-11eb-86b2-824917c15ac1.png" width="338" height="266">
 
 ### SerialLink 
 
