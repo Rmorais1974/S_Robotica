@@ -1,13 +1,9 @@
 # Sistemas de Robótica - Introdução
 
-A Robótica está hoje presente em praticamente qualquer setor industrial. Desenvolver robôs com sistemas confiáveis, e que tragam uma eficiência operacional na execução das suas funções, dando segurança aos seus utilizadores são alguns dos pontos mandatários para projetos do setor. 
-Um dos pilares da Indústria 4.0 é o desenvolvimento de robôs autônomos de comportamento inteligente e cooperativo.
-A Indústria 4.0 centraliza-se no desenvolvimento de processos e produtos mais autônomos e eficientes, além de oferecer soluções customizadas para produção, logística e clientes. Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente, e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. Noventanto, para que isso aconteça, é mandatório haver uma constante troca de informações entre todas as etapas da cadeia de produção (KOCH et al., 2014).
-
-## Impactos da Indústria 4.0
-
-Ao mergulhar no significado da indústria 4.0, é impossível não pensar nos seus impactos.
-Graças aos seus avanços é possível ter uma medida de como ela afeta a indústria como um todo — tanto positiva quanto negativamente.
+A Robótica está hoje presente em praticamente em todos os setores da industria. Desenvolver robôs com sistemas que sejam confiáveis, que tragam uma eficiência operacional na execução das suas funções e acima de tudo trazendo segurança aos seus utilizadores são alguns dos pontos que são mandatórios para diferentes projetos do setor industrial. 
+Um dos pilares da Indústria 4.0 é o desenvolvimento de robôs autônomos de comportamento inteligente e que sejam cooperativos entre si.
+A Indústria 4.0 centra-se no desenvolvimento de processos mais autônomos e eficientes, além de oferecer soluções customizadas para produção e logística . 
+Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente, e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. Noventanto, para que isso aconteça, é mandatório haver uma constante troca de informações entre todas as etapas da cadeia de produção.
 
 ## Impactos positivos
 Ao alinhar a automação com os procedimentos de coleta e troca de dados, a adoção dos conceitos da Indústria 4.0 pode, sem dúvida, proporcionar às fábricas maior eficiência em seus processos.
@@ -27,10 +23,9 @@ O grupo escolheu dois modelos o modelo mdl_planar2 e o Fanuc AM120IB/10l.
 
 ## Descrição do Trabalho
 
- O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos robôs. Também devem ser criados videos demonstrativos com a explicação e demonstração do seu funcionamento.
- 
-# Desenvolvimento
-Vamos começar por apresentar o robot MDL_Planar 2 fazendo uma analise  dos seus movimentos, de seguida faremos o mesmo para o robot Fanuc AM120IB/10L
+ O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos dois robôts. 
+ Também devem ser criados videos demonstrativos com a demonstração do seu funcionamento.
+
 
 ## MDL_Planar2
 
@@ -44,9 +39,16 @@ Também define o vetor:
 
 
 ### Revolute
-XXXX
+Uma articulação de revolute (também chamada articulação pin ou articulação de dobradiça) é um par cineático com um grau de liberdade usado frequentemente em mecanismos e máquinas.
+A articulação limita o movimento de dois corpos a uma rotação pura ao longo de um eixo comum. A junta não permite o movimento de translação, nem o movimento linear deslizante. Quase todos os conjuntos de múltiplos corpos em movimento incluem as articulações revolute nos seus desenhos. 
+As juntas Revolute são utilizadas em numerosas aplicações, tais como dobradiças de porta, mecanismos e outros dispositivos de rotação de um unico eixo.
+No acso deste trabalho utilizamos duas juntas revulte que correspondem aos dois graus de liberdade
+
+<img src="https://user-images.githubusercontent.com/79664875/122982302-9bf2d200-d392-11eb-9d25-789c352a1423.png" width="338" height="266")>
+
+
 ### SerialLink 
-XXXX
+
 
 
 
