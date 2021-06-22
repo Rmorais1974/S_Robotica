@@ -17,32 +17,27 @@ Os recursos exclusivos das tecnologias interconectadas permitem que os fabricant
 ## Impactos negativos
 XXXXX
 
+
+## Toolbox Peter Corke
+No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada em Matlab com base nos modelos da toolbox do Peter Corke.
+O Robotics Toolbox que foi desenvolvido pelo Peter Corke, é composto por um conjunto de ferramentas para simulação de robôs manipuladores.
+O Robotics Toolbox conta com vários modelos de robôs comerciais pré-programados que estão disponíveis para download no github ou no site https://petercorke.com.
+Os modelos utilizados neste trabalho forma o  mdl_planar2  que é um modelo de 2 graus de liberdade e o  Fanuc AM120IB/10l que é um modelo com 6 graus de liberdade.
+
+
 # Trabalho Pedido
 No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada com base nos modelos da toolbox do Peter Corke.
 O grupo escolheu dois modelos o modelo mdl_planar2 e o Fanuc AM120IB/10l.
 
 ## Descrição do Trabalho
 
- O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos dois robôts. 
- Também devem ser criados videos demonstrativos com a demonstração do seu funcionamento.
-
-## Toolbox Peter Corke
-O Robotics Toolbox para MATLAB, desenvolvido por Peter Corke, é composto por um conjunto de ferramentas para simulação de robôs manipuladores e de robôs móveis.
-O Robotics Toolbox é especial pois é bastante completo e possui versões para Octave, SciLab e Python, embora estas ainda não possuam todos os recursos da versão para MATLAB. Os arquivos do Robotics Toolbox estão disponíveis para download no site do próprio autor.
-
-Instalar o toolbox é bem simples. Basta descompactar os arquivos numa pasta a sua escolha. Em seguida, execute o startup_rvc.m para adicionar as pastas do toolbox ao path do MATLAB. Pronto! Você já pode acessar suas funções!
-
-O toolbox conta com vários modelos de robôs comerciais pré-programados, como os manipuladores PUMA 560, Motoman HP6 e FANUC AM120. Também possui os modelos do Stanford Arm e de um manipulador planar de duas juntas. A imagem abaixo ilustra a execução da simulação de um manipulador PUMA 560.
+ O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos dois robots, devem ser criados videos demonstrativos com a demonstração do 
+ funcionamento de cada um dos robots.
 
 ## MDL_Planar2
 
 MDL_PLANAR2 é um script que cria a variável p2 no espaço de trabalho que descreve as características cinéticas de um simples mecanismo de ligação.
-Este rebot é um robot com 2 graus de liberdade, que se move tanto no eixo do XX como no eixo dos YY
-Também define o vetor:
-
-qz corresponde à configuração do ângulo de articulação zero.
-Também define o vetor:
-
+Este robot tem 2 graus de liberdade, que se move tanto no eixo do XX como no eixo dos YY
 
 
 ### Revolute
@@ -140,6 +135,7 @@ i – distância entre zi-1 e zi ao longo de xi;
 di – distância entre xi-1 e xi ao longo de zi-1;
 θi – ângulo entre xi-1 e xi ao redor de zi-1.
 Uma vez que todas as juntas do robô são de rotação, somente os θis são variáveis.
+
 ### Ikine
 A cinemática inversa representa a transformação inversa da cinemática directa. A característica principal
 desta transformação é o facto de, em geral, conduzir a múltiplas soluções. Para manipuladores série o
