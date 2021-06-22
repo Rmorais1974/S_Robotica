@@ -1,1 +1,9 @@
+title: "Sistemas de Robótica"
+author: " "
+description: "Universidade Autonoma de Lisboa"
+permalink: /:title/
+lang: "PT"
+excerpt_separator: "\n\n\n"
+
+
 theme: jekyll-theme-cayman
