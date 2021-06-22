@@ -26,6 +26,13 @@ O grupo escolheu dois modelos o modelo mdl_planar2 e o Fanuc AM120IB/10l.
  O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos dois robôts. 
  Também devem ser criados videos demonstrativos com a demonstração do seu funcionamento.
 
+## Toolbox Peter Corke
+O Robotics Toolbox para MATLAB, desenvolvido por Peter Corke, é composto por um conjunto de ferramentas para simulação de robôs manipuladores e de robôs móveis.
+O Robotics Toolbox é especial pois é bastante completo e possui versões para Octave, SciLab e Python, embora estas ainda não possuam todos os recursos da versão para MATLAB. Os arquivos do Robotics Toolbox estão disponíveis para download no site do próprio autor.
+
+Instalar o toolbox é bem simples. Basta descompactar os arquivos numa pasta a sua escolha. Em seguida, execute o startup_rvc.m para adicionar as pastas do toolbox ao path do MATLAB. Pronto! Você já pode acessar suas funções!
+
+O toolbox conta com vários modelos de robôs comerciais pré-programados, como os manipuladores PUMA 560, Motoman HP6 e FANUC AM120. Também possui os modelos do Stanford Arm e de um manipulador planar de duas juntas. A imagem abaixo ilustra a execução da simulação de um manipulador PUMA 560.
 
 ## MDL_Planar2
 
@@ -49,7 +56,7 @@ No acso deste trabalho utilizamos duas juntas revulte que correspondem aos dois 
 <img src="https://user-images.githubusercontent.com/79664875/122984780-4d930280-d395-11eb-86b2-824917c15ac1.png" width="338" height="266">
 
 ### SerialLink 
-
+A função SerialLink cria o robô utilizando os dados de cada uma das junções. 
 
 
 
@@ -121,10 +128,29 @@ O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis,
 
 
 ### Fkine
-XXXX
-
+Foward Kinematics é usado para manipula a cinemtica inversa, posteriormente vai retornar a matriz de transformação homogênea final:
+ A cinemática direta permite determinar a posição e a orientação do efetuador em função das variáveis das juntas do robô. 
+ É possível realizar essa análise fixando um sistema de coordenadas em cada elo. Para fazer isso de forma sistemática, a versão standard da 
+convenção de Denavit-Hartenberg (DH) foi utilizada.
+Os parâmetros de DH (Tab. 1) foram encontrados a  partir da geometria do robô (Fig. 5), e consistem em um conjunto de quatro quantidades, que descrevem a 
+posição e orientação de um sistema de coordenadas de um elo em relação ao sistema de coordenadas do elo precedente ao longo da cadeia cinemática. 
+Os parâmetros de DH standard são definidos como:
+i – distância entre zi-1 e zi ao longo de xi;
+αi – ângulo entre zi-1 e zi ao redor de xi;
+di – distância entre xi-1 e xi ao longo de zi-1;
+θi – ângulo entre xi-1 e xi ao redor de zi-1.
+Uma vez que todas as juntas do robô são de rotação, somente os θis são variáveis.
 ### Ikine
-XXXX
+A cinemática inversa representa a transformação inversa da cinemática directa. A característica principal
+desta transformação é o facto de, em geral, conduzir a múltiplas soluções. Para manipuladores série o
+posicionamento num ponto (x, y, z,) arbitrário requer o mínimo de 6 graus de liberdade.
+
+A cinemática inversa possibilita determinar as  variáveis das juntas em função da posição e orientação do efetuador. 
+O conhecimento da solução do problema de cinemática inversa é indispensável para o controle  de trajetória ponto-a-ponto. Quando a posição do 
+centro do efetuador não é alterada com o movimento das suas juntas, é possível utilizar o método de desacoplamento cinemático (Fig. 6), que permite 
+dividir o problema da cinemática inversa em dois problemas mais simples, conhecidos, respectivamente, por cinemática inversa de posição (em função das juntas do braço), 
+e cinemática inversa de orientação (em função das juntas do punho). 
+Esse é o caso de nosso robô, que possui um punho esférico, no qual os eixos das suas três juntas interceptam num mesmo ponto (Fig. 5).
 
 
 ### Código
