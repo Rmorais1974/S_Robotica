@@ -1,11 +1,11 @@
 # Sistemas de Robótica - Introdução
-
+<p align="justify">
 A Robótica está hoje presente em praticamente em todos os setores da indústria. Desenvolver robôs com sistemas que sejam confiáveis, que propocionem uma eficiência operacional na execução das suas funções e acima de tudo trazendo segurança aos seus utilizadores, são alguns dos pontos essenciais para os diferentes projetos do setor industrial. 
 Um dos pilares da Indústria 4.0 é o desenvolvimento de robôs autônomos com um comportamento inteligente e que sejam cooperativos entre si.
 A Indústria 4.0 centra-se no desenvolvimento de processos mais autônomos e eficientes bem como oferecer soluções customizadas para produção e logística . 
 Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. 
 No entanto, para que isso aconteça, é essencial haver uma constante troca de informações entre todas as etapas da cadeia de produção.
-
+</p>
 
 
 ## Toolbox Peter Corke
