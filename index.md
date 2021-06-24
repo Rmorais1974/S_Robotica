@@ -43,7 +43,7 @@ Neste trabalho utilizamos duas juntas revulte que correspondem aos dois graus de
 
 
 
-<img src="https://user-images.githubusercontent.com/79664875/122984780-4d930280-d395-11eb-86b2-824917c15ac1.png" width="338" height="266">
+<img src="https://user-images.githubusercontent.com/79664875/122984780-4d930280-d395-11eb-86b2-824917c15ac1.png" width="338" height="266" align=”center”>
 
 ### SerialLink 
 A função SerialLink cria o robô utilizando os dados de cada uma das junções. 
