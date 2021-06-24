@@ -3,19 +3,9 @@
 A Robótica está hoje presente em praticamente em todos os setores da industria. Desenvolver robôs com sistemas que sejam confiáveis, que tragam uma eficiência operacional na execução das suas funções e acima de tudo trazendo segurança aos seus utilizadores são alguns dos pontos que são mandatórios para diferentes projetos do setor industrial. 
 Um dos pilares da Indústria 4.0 é o desenvolvimento de robôs autônomos de comportamento inteligente e que sejam cooperativos entre si.
 A Indústria 4.0 centra-se no desenvolvimento de processos mais autônomos e eficientes, além de oferecer soluções customizadas para produção e logística . 
-Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente, e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. Noventanto, para que isso aconteça, é mandatório haver uma constante troca de informações entre todas as etapas da cadeia de produção.
+Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente, e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. 
+No entanto, para que isso aconteça, é mandatório haver uma constante troca de informações entre todas as etapas da cadeia de produção.
 
-## Impactos positivos
-Ao alinhar a automação com os procedimentos de coleta e troca de dados, a adoção dos conceitos da Indústria 4.0 pode, sem dúvida, proporcionar às fábricas maior eficiência em seus processos.
-A simplificação dos processos e o aumento do acesso a dados úteis ajudam a maximizar a produtividade e minimizar a quantidade de recursos usados.
-Com menos dinheiro gasto em materiais e mão de obra, e menos rejeições de clientes e contratempos de fabricação, a indústria 4.0 também ajuda os fabricantes a impulsionar a produtividade e o crescimento da receita.
-Outra maneira importante pela qual a Indústria 4.0 pode impactar a manufatura é promovendo interações mais próximas com os clientes.
-A tecnologia, os dados e as informações que podem ajudar a transformar as operações de manufatura também podem tornar os processos e sistemas mais responsivos, tudo de acordo com as necessidades do cliente.
-Os recursos exclusivos das tecnologias interconectadas permitem que os fabricantes respondam e se adaptem mais rapidamente às solicitações dos clientes.
-É algo que possibilita o desenvolvimento de pedidos personalizados com menos trabalho e tempo de configuração do que na fabricação tradicional.
-
-## Impactos negativos
-XXXXX
 
 
 ## Toolbox Peter Corke
@@ -23,7 +13,7 @@ No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma anali
 O Robotics Toolbox que foi desenvolvido pelo Peter Corke, é composto por um conjunto de ferramentas para simulação de robôs manipuladores.
 O Robotics Toolbox conta com vários modelos de robôs comerciais pré-programados que estão disponíveis para download no github ou no site https://petercorke.com.
 Os modelos utilizados neste trabalho forma o  mdl_planar2  que é um modelo de 2 graus de liberdade e o  Fanuc AM120IB/10l que é um modelo com 6 graus de liberdade.
-#____________________________________________________________________________________________________________________________________________________________________
+
 
 # Trabalho Pedido
 No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada com base nos modelos da toolbox do Peter Corke.
@@ -123,9 +113,9 @@ O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis,
 
 
 ### Fkine
-Foward Kinematics é usado para manipula a cinemtica inversa, posteriormente vai retornar a matriz de transformação homogênea final:
- A cinemática direta permite determinar a posição e a orientação do efetuador em função das variáveis das juntas do robô. 
- É possível realizar essa análise fixando um sistema de coordenadas em cada elo. Para fazer isso de forma sistemática, a versão standard da 
+Foward Kinematics é usado para manipular a cinemtica inversa, posteriormente vai retornar a matriz de transformação homogênea final
+A cinemática direta permite determinar a posição e a orientação do efetuador em função das variáveis das juntas do robô. 
+É possível realizar essa análise fixando um sistema de coordenadas em cada elo. Para fazer isso de forma sistemática, a versão standard da 
 convenção de Denavit-Hartenberg (DH) foi utilizada.
 Os parâmetros de DH (Tab. 1) foram encontrados a  partir da geometria do robô (Fig. 5), e consistem em um conjunto de quatro quantidades, que descrevem a 
 posição e orientação de um sistema de coordenadas de um elo em relação ao sistema de coordenadas do elo precedente ao longo da cadeia cinemática. 
