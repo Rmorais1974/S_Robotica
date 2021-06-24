@@ -3,7 +3,13 @@
     <meta charset="UTF-8>
 </head>
 <body>
-    <nav>hi</nav>
+<nav>
+    <ul>
+        <li><a href="/about/>About </a></li>
+     
+    
+    
+</nav>
 </body>
     
 
