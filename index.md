@@ -22,7 +22,7 @@ O Robotics Toolbox conta com vários modelos de robots comerciais pré-programad
 <p align="justify">
 No âmbito da cadeira de Sistemas de Robótica foi pedido para efectuar uma análise detalhada com base nos modelos da toolbox do Peter Corke.
 </p> 
-  O grupo escolheu dois modelos:
+O grupo escolheu dois modelos:
 - MDL_planar2 (modelo com 2 graus de liberdade);
 - Fanuc AM120IB/10l (modelo com 6 graus de liberdade).
 
