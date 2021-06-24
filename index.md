@@ -1,17 +1,4 @@
-<head>
-    <meta charset="UTF-8>
-    <meta charset="UTF-8>
-</head>
-<body>
-<nav>
-    <ul>
-        <li><a href="/about/>About </a></li>
-    </ul>
-    
-    
-</nav>
-</body>
-    
+  
 
 # Sistemas de Robótica - Introdução
 <p align="justify">
