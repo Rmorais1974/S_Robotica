@@ -30,16 +30,16 @@ funcionamento de cada um dos robots.
 
 ## MDL_Planar2
 
-MDL_PLANAR2 é um script que cria a variável p2 no espaço de trabalho que descreve as características cinéticas de um simples mecanismo de ligação.
-Este robot tem 2 graus de liberdade, que se move tanto no eixo do XX como no eixo dos YY
+O MDL_PLANAR2 é um script que cria a variável p2 no espaço de trabalho e descreve as características cinéticas de um simples mecanismo de ligação.
+Este robot tem 2 graus de liberdade que se move tanto no eixo do XX como no eixo dos YY.
 
 
 ### Revolute
 
-Uma articulação de revolute (também chamada articulação pin ou articulação de dobradiça) é um par cineático com um grau de liberdade usado frequentemente em mecanismos e máquinas.
-A articulação limita o movimento de dois corpos a uma rotação pura ao longo de um eixo comum. A junta não permite o movimento de translação, nem o movimento linear deslizante. Quase todos os conjuntos de múltiplos corpos em movimento incluem as articulações revolute nos seus desenhos. 
-As juntas Revolute são utilizadas em numerosas aplicações, tais como dobradiças de porta, mecanismos e outros dispositivos de rotação de um unico eixo.
-No acso deste trabalho utilizamos duas juntas revulte que correspondem aos dois graus de liberdade
+Uma articulação de revolute (também chamada articulação pin ou articulação de dobradiça) é um par cinemático com um grau de liberdade usado frequentemente em mecanismos e máquinas.
+A articulação limita o movimento de dois corpos a uma rotação pura ao longo de um eixo comum. A junta não permite o movimento de translação nem o movimento linear deslizante. Quase todos os conjuntos de múltiplos corpos em movimento incluem as articulações revolute na sua construção. 
+As juntas Revolute são utilizadas em numerosas aplicações tais como, dobradiças de porta, mecanismos e outros dispositivos de rotação de um único eixo.
+Neste trabalho utilizamos duas juntas revulte que correspondem aos dois graus de liberdade.
 
 
 
@@ -109,8 +109,8 @@ disp(P)
 
 ## FANUC AM120IB/10l 
 
-O Modelo Fanuc AM120iB/10L é um robot com 6 graus de liberdade que usa os parametros Denvait-Hartenberg 
-O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis, utilizando várias técnicas de cinemática corporal rígida e dinâmica. 
+O Modelo Fanuc AM120iB/10L é um robot com 6 graus de liberdade que usa os parâmetros Denvait-Hartenberg 
+O conjunto de poses 6-D são obtidas, dada uma gama fixa de parâmetros alcançáveis, utilizando várias técnicas de cinemática corporal rígida e dinâmica. 
 
 
 
@@ -118,27 +118,27 @@ O conjunto de poses 6-D obtidas dada uma gama fixa de parâmetros alcançáveis,
 
 
 ### Fkine
-Foward Kinematics é usado para manipular a cinemtica inversa, posteriormente vai retornar a matriz de transformação homogênea final
-A cinemática direta permite determinar a posição e a orientação do efetuador em função das variáveis das juntas do robô. 
-É possível realizar essa análise fixando um sistema de coordenadas em cada elo. Para fazer isso de forma sistemática, a versão standard da 
-convenção de Denavit-Hartenberg (DH) foi utilizada.
-Os parâmetros de DH (Tab. 1) foram encontrados a  partir da geometria do robô (Fig. 5), e consistem em um conjunto de quatro quantidades, que descrevem a 
-posição e orientação de um sistema de coordenadas de um elo em relação ao sistema de coordenadas do elo precedente ao longo da cadeia cinemática. 
+Foward Kinematics é usado para manipular a cinemática inversa, posteriormente vai retornar a matriz de transformação homogênea final.
+A cinemática direta permite determinar a posição e a orientação do end-effector em função das variáveis das juntas do robô. 
+É possível realizar essa análise fixando um sistema de coordenadas em cada elo. Para fazer isso de forma sistemática, foi utilizada a os parâmetros de 
+Denavit-Hartenberg (DH).
+Os parâmetros de DH consistem num conjunto de quatro quantidades, que descrevem a posição e orientação de um sistema de coordenadas de um elo em relação ao
+sistema de coordenadas do elo precedente ao longo da cadeia cinemática. 
 Os parâmetros de DH standard são definidos como:
 i – distância entre zi-1 e zi ao longo de xi;
 αi – ângulo entre zi-1 e zi ao redor de xi;
 di – distância entre xi-1 e xi ao longo de zi-1;
 θi – ângulo entre xi-1 e xi ao redor de zi-1.
-Uma vez que todas as juntas do robô são de rotação, somente os θis são variáveis.
+Uma vez que todas as juntas do robô são de rotação, somente os θis são variáveis.
 
 ### Ikine
-A cinemática inversa representa a transformação inversa da cinemática directa. A característica principal
-desta transformação é o facto de, em geral, conduzir a múltiplas soluções. Para manipuladores série o
-posicionamento num ponto (x, y, z,) arbitrário requer o mínimo de 6 graus de liberdade.
+A cinemática inversa representa a transformação inversa da cinemática directa. A característica principal desta transformação é o facto de 
+conduzir a múltiplas soluções. 
+Para manipuladores série o posicionamento num ponto (x, y, z,) arbitrário requer o mínimo de 6 graus de liberdade.
 
-A cinemática inversa possibilita determinar as  variáveis das juntas em função da posição e orientação do efetuador. 
+A cinemática inversa possibilita determinar as  variáveis das juntas em função da posição e orientação do end-effector. 
 O conhecimento da solução do problema de cinemática inversa é indispensável para o controle  de trajetória ponto-a-ponto. Quando a posição do 
-centro do efetuador não é alterada com o movimento das suas juntas, é possível utilizar o método de desacoplamento cinemático (Fig. 6), que permite 
+centro do end-effector não é alterada com o movimento das suas juntas, é possível utilizar o método de desacoplamento cinemático (Fig. 6), que permite 
 dividir o problema da cinemática inversa em dois problemas mais simples, conhecidos, respectivamente, por cinemática inversa de posição (em função das juntas do braço), 
 e cinemática inversa de orientação (em função das juntas do punho). 
 Esse é o caso de nosso robô, que possui um punho esférico, no qual os eixos das suas três juntas interceptam num mesmo ponto (Fig. 5).
