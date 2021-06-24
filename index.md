@@ -1,28 +1,32 @@
 # Sistemas de Robótica - Introdução
 
-A Robótica está hoje presente em praticamente em todos os setores da industria. Desenvolver robôs com sistemas que sejam confiáveis, que tragam uma eficiência operacional na execução das suas funções e acima de tudo trazendo segurança aos seus utilizadores são alguns dos pontos que são mandatórios para diferentes projetos do setor industrial. 
-Um dos pilares da Indústria 4.0 é o desenvolvimento de robôs autônomos de comportamento inteligente e que sejam cooperativos entre si.
-A Indústria 4.0 centra-se no desenvolvimento de processos mais autônomos e eficientes, além de oferecer soluções customizadas para produção e logística . 
-Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente, e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. 
-No entanto, para que isso aconteça, é mandatório haver uma constante troca de informações entre todas as etapas da cadeia de produção.
+A Robótica está hoje presente em praticamente em todos os setores da indústria. Desenvolver robôs com sistemas que sejam confiáveis, que propocionem uma eficiência operacional na execução das suas funções e acima de tudo trazendo segurança aos seus utilizadores, são alguns dos pontos essenciais para os diferentes projetos do setor industrial. 
+Um dos pilares da Indústria 4.0 é o desenvolvimento de robôs autônomos com um comportamento inteligente e que sejam cooperativos entre si.
+A Indústria 4.0 centra-se no desenvolvimento de processos mais autônomos e eficientes bem como oferecer soluções customizadas para produção e logística . 
+Para que isso seja possível utilizam-se tecnologias de automação industrial juntamente com sensores. O objetivo é criar um sistema produtivo mais inteligente e ampliar a capacidade de resolução de problemas sem a necessidade de interferência humana. 
+No entanto, para que isso aconteça, é essencial haver uma constante troca de informações entre todas as etapas da cadeia de produção.
 
 
 
 ## Toolbox Peter Corke
-No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada em Matlab com base nos modelos da toolbox do Peter Corke.
-O Robotics Toolbox que foi desenvolvido pelo Peter Corke, é composto por um conjunto de ferramentas para simulação de robôs manipuladores.
-O Robotics Toolbox conta com vários modelos de robôs comerciais pré-programados que estão disponíveis para download no github ou no site https://petercorke.com.
-Os modelos utilizados neste trabalho forma o  mdl_planar2  que é um modelo de 2 graus de liberdade e o  Fanuc AM120IB/10l que é um modelo com 6 graus de liberdade.
+
+No âmbito da cadeira de Sistemas de Robótica foi proposto efectuar uma análise detalhada em Matlab com base nos modelos da toolbox do Peter Corke.
+O Robotics Toolbox foi desenvolvido pelo Peter Corke e é composto por um conjunto de ferramentas para simulação de robôs manipuladores.
+O Robotics Toolbox conta com vários modelos de robots comerciais pré-programados que estão disponíveis para download no github ou no site https://petercorke.com.
+
 
 
 # Trabalho Pedido
-No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada com base nos modelos da toolbox do Peter Corke.
-O grupo escolheu dois modelos o modelo mdl_planar2 e o Fanuc AM120IB/10l.
+
+No âmbito da cadeira de Sistemas de Robótica foi pedido para efectuar uma análise detalhada com base nos modelos da toolbox do Peter Corke.
+O grupo escolheu dois modelos:
+- MDL_planar2 (modelo com 2 graus de liberdade);
+- Fanuc AM120IB/10l (modelo com 6 graus de liberdade).
 
 ## Descrição do Trabalho
 
- O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos dois robots, devem ser criados videos demonstrativos com a demonstração do 
- funcionamento de cada um dos robots.
+O trabalho consite em criar uma interface gráfica para visualizar os movimentos dos dois robots, devendo ser criados vídeos demonstrativos o 
+funcionamento de cada um dos robots.
 
 ## MDL_Planar2
 
@@ -31,6 +35,7 @@ Este robot tem 2 graus de liberdade, que se move tanto no eixo do XX como no eix
 
 
 ### Revolute
+
 Uma articulação de revolute (também chamada articulação pin ou articulação de dobradiça) é um par cineático com um grau de liberdade usado frequentemente em mecanismos e máquinas.
 A articulação limita o movimento de dois corpos a uma rotação pura ao longo de um eixo comum. A junta não permite o movimento de translação, nem o movimento linear deslizante. Quase todos os conjuntos de múltiplos corpos em movimento incluem as articulações revolute nos seus desenhos. 
 As juntas Revolute são utilizadas em numerosas aplicações, tais como dobradiças de porta, mecanismos e outros dispositivos de rotação de um unico eixo.
