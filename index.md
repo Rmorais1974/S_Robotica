@@ -124,7 +124,9 @@ O conjunto de poses 6-D são obtidas, dada uma gama fixa de parâmetros alcanç�
 </p>
 
 
+<p align="center">
 <img src="https://user-images.githubusercontent.com/79664875/122179151-257c3e80-ce7f-11eb-8461-72a467d6720f.png" width="427.4" height="267"> 
+</p>
 
 
 ### Fkine
