@@ -22,7 +22,6 @@ O Robotics Toolbox conta com vários modelos de robots comerciais pré-programad
 <p align="justify">
 No âmbito da cadeira de Sistemas de Robótica foi pedido para efectuar uma análise detalhada com base nos modelos da toolbox do Peter Corke.
 </p>
-<p></p>
 <p>
 O grupo escolheu dois modelos:</p>
 <p>
