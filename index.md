@@ -23,7 +23,7 @@ No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma anali
 O Robotics Toolbox que foi desenvolvido pelo Peter Corke, é composto por um conjunto de ferramentas para simulação de robôs manipuladores.
 O Robotics Toolbox conta com vários modelos de robôs comerciais pré-programados que estão disponíveis para download no github ou no site https://petercorke.com.
 Os modelos utilizados neste trabalho forma o  mdl_planar2  que é um modelo de 2 graus de liberdade e o  Fanuc AM120IB/10l que é um modelo com 6 graus de liberdade.
-
+#____________________________________________________________________________________________________________________________________________________________________
 
 # Trabalho Pedido
 No ambito da cadeira de Sistemas de Robótica foi pedido para efectuar uma analise detalhada com base nos modelos da toolbox do Peter Corke.
