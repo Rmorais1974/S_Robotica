@@ -1,3 +1,12 @@
+<head>
+    <meta charset="UTF-8>
+    <meta charset="UTF-8>
+</head>
+<body>
+    <nav>hi</nav>
+</body>
+    
+
 # Sistemas de Robótica - Introdução
 <p align="justify">
 A Robótica está hoje presente em praticamente em todos os setores da indústria. Desenvolver robôs com sistemas que sejam confiáveis, que propocionem uma eficiência operacional na execução das suas funções e acima de tudo trazendo segurança aos seus utilizadores, são alguns dos pontos essenciais para os diferentes projetos do setor industrial. 
